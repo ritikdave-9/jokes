@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
+
+    <title>Jokes</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Jokes</h3>
+      <!-- Loading GIF -->
+      <div id="loading" class="loading" style="display: none;">
+        <img src="loading.gif" alt="Loading..." />
+      </div>
+      <!-- Joke content -->
+      <div id="joke" class="joke" style="display: none;"></div>
+      <audio id="audio" src="your-audio-file.mp3"></audio>
+
+      <button id="jokeBtn" class="btn">Get Another Joke</button>
+      <button id="muteBtn" class="btn">Mute</button>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
